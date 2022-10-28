@@ -32,7 +32,7 @@ namespace SearchAlgorithm
             {
                 Console.Write("<" + (i + 1) + ">");
                 string s1 = Console.ReadLine();
-                arr[i] = int32.parse(s1);
+                arr[i] = Int32.Parse(s1);
             }
 
         }
